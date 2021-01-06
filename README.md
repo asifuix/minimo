@@ -1,1 +1,1 @@
-# minimo
+https://github.com/asifuix/minimo
