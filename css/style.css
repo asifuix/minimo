@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Ubuntu:wght@300&display=swap');
+
+/*font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+.wrapper{
+	width: 1000px;
+	margin: auto;
+	padding: 75px 0;
+}
+
+
+/*start header section*/
+.nav{
+    padding: 50px 0;
+    display: flow-root;
+}
+
+.logo{
+	width: 30%;
+	float: left;
+}
+
+.nav-menu{
+	width: 70%;
+	float: left;
+	text-align: right;
+}
+
+.nav-menu ul{}
+
+.nav-menu ul li{
+    display: inline-block;
+    padding-left: 70px;
+}
+
+.nav-menu ul li a{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.nav-menu ul li a:hover{
+	color: #424242;
+	font-weight: 600;
+}
+/*end header section*/
+
+/*start main post section*/
+.main-post{
+
+}
+
+.main-post img{
+	width: 100%;
+}
+
+.main-post h5{
+	font-family: 'Ubuntu', sans-serif;
+	color: #b4ad9e;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+	font-weight: 100;
+}
+
+.main-post h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	color: #626262;
+	font-weight: 500;
+}
+
+.main-post p{
+	font-family: 'Playfair Display', serif;
+	text-align: justify;
+	line-height: 1.8;
+	color: #626262;
+	font-size: 14px;
+	padding: 25px 0;
+}
+
+.main-post a{
+	font-family: 'Ubuntu', sans-serif;
+	color: #b4ad9e;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+/*end main post section*/
+
+/*start post section*/
+.post-section{
+    width: 100%;
+    display: flow-root;
+}
+
+.left{
+    width: 48%;
+    float: left;
+}
+
+.left img{
+	width: 100%;
+}
+
+.left h5{
+	font-family: 'Ubuntu', sans-serif;
+	color: #b4ad9e;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 15px 0 15px 0;
+	font-weight: 100;
+}
+
+.left h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	color: #626262;
+	font-weight: 500;
+}
+
+.left p{
+	font-family: 'Playfair Display', serif;
+	text-align: justify;
+	line-height: 1.8;
+	color: #626262;
+	font-size: 14px;
+	padding: 25px 0;
+}
+
+.right{
+    width: 48%;
+    float: right;
+}
+
+.right img{
+	width: 100%;
+}
+
+.right h5{
+	font-family: 'Ubuntu', sans-serif;
+	color: #b4ad9e;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 15px 0 15px 0;
+	font-weight: 100;
+}
+
+.right h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	color: #626262;
+	font-weight: 500;
+}
+
+.right p{
+	font-family: 'Playfair Display', serif;
+	text-align: justify;
+	line-height: 1.8;
+	color: #626262;
+	font-size: 14px;
+	padding: 25px 0;
+}
+/*end post section*/
+
+/*start newsletter section*/
+.newsletter-signup{
+	background: #f0f0f0;
+	padding: 100px 0;
+}
+
+.newsletter{
+	width: 400px;
+	margin: auto;
+	
+}
+
+.newsletter h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	color: #333333;
+	font-weight: 500;
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+.input{
+	border-bottom: 1px solid #cccccc;
+    padding-bottom: 12px;
+    align-items: center;
+}
+
+.input input{
+ 	width: 80%;
+    padding: 10px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    border: none;
+    background: transparent;
+}
+
+.input input:focus{
+	outline: 0;
+}
+
+ .input a{
+ 	width: 10%;
+ 	float: right;
+ 	font-size: 25px;
+ 	color: #cccccc;
+}
+/*end newsletter section*/
+
+/*start button section*/
+.btn{
+	text-align: center;
+}
+
+.btn a{
+	padding: 15px 45px;
+    border: 1px solid #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #626262;
+}
+.btn a:hover{
+	background: #626262;
+	color: white;
+	border: none;
+}
+/*end button section*/
+
+/*start footer section*/
+.footer{
+	width: 100%;
+	display: flow-root;
+	background: #f0f0f0;
+}
+.footer-menu{
+	width: 50%;
+	float: left;
+}
+
+.footer-menu ul{
+
+}
+
+.footer-menu ul li{
+	display: inline-block;
+	padding-right: 20px;
+}
+
+.footer-menu ul li a{
+	color: #424242;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+}
+
+.social-icon{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+
+.social-icon ul{
+
+}
+
+.social-icon ul li{
+	display: inline-block;
+	padding-left: 20px;
+	font-family: 'Playfair Display', serif;
+	color: #424242;
+}
+
+.social-icon ul li a{
+	color: #424242;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+}
+/*end footer section*/
