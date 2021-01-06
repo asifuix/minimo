@@ -1,1 +1,1 @@
-https://github.com/asifuix/minimo
+https://asifuix.github.io/minimo/
